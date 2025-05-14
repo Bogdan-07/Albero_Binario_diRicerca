@@ -1,4 +1,21 @@
-package PACKAGE_NAME;
+public class BinaryTree{
+    private final Node root;
+    private Node currentNode;
 
-public class BinaryTree {
+
+    public BinaryTree(Node headNode){
+        root = headNode;
+    }
+
+
+   /* public ... addNode(Node inputNode){
+        currentNode = root;
+        if (inputNode.getValue() > currentNode.getValue()){
+
+        }
+
+
+        if (currentNode.getValue() == )
+
+    }*/
 }
